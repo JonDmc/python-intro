@@ -45,3 +45,54 @@ my_float = 1.0123123
 complex
 my_complex = 3j
 my_other_complex = 2j
+
+# Container Types
+# List  (aka an array)
+list
+my_li = [ 0, 1, 5, 'hello', 'big snakes']
+
+# Dictionary (aka object -- but not in python)
+dict
+my_dictionary = {
+    'animal': 'snakes'
+}
+
+# ## # ## # ## # ## 
+# Control flow w if/else
+
+# three bools
+None
+True
+False
+
+# logical operators
+"""
+and # &&
+or # ||
+not or ! # ! 
+
+ """ 
+
+
+# comparison operators
+"""
+== # equality
+> # who is bigger \
+<
+>=
+<=
+
+"""
+
+my_bank_account = False
+amount_of_money = 100
+
+# conditionals start with 'if' keyword
+if my_bank_account and amount_of_money >= 1000:
+    print('you are ballin')
+elif my_bank_account: # elif = else if
+    print('put more money in the bank!')
+else:
+    print('you should get some money!')
+
+
