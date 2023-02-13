@@ -95,4 +95,38 @@ elif my_bank_account: # elif = else if
 else:
     print('you should get some money!')
 
+# ## # ## # ## # ## # ##
+# Math
 
+# math operators
+# +, -, /, *, =, %
+# ** to the power of
+# // forced integer division
+# print( 10 + 10)
+# print (2 ** 7) # 2^7
+print (15// 2.7) # forced integer division flooes the output
+
+my_complex = 1 +3j + 5j + 2
+print(my_complex)
+
+print(1 + int("1")) # pyython will not do automatic conversion of types
+
+# ## # ## # ## #
+
+# String instance methods
+my_str = 'spam and eggs'
+
+print(dir(str)) # print the string directory to see all the methods
+# dunder methods -> internal private method (do not touch)
+
+spam_list = my_str.split(" ") #split on the whitespace
+print(spam_list)
+
+print(my_str.upper())
+print(my_str.lower())
+
+# finding the length of the string
+print(len(my_str))
+
+# 'in' keyword to find if a string contains a substring
+print("eggs" in my_str)

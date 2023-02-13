@@ -15,3 +15,12 @@ def greet(name):
 
 # invocation of the function
 greet('April')
+
+
+# scope in python
+e = 'eggs'
+
+def exclaim():
+    print('but I dont like spam with my {e}')
+
+exclaim()
